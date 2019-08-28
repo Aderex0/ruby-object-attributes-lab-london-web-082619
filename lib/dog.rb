@@ -21,6 +21,11 @@ class Dog
   end
   
   class Person
+    def initialize(person_name, person_job)
+      @name = person_name
+      @job = person_job
+    end
+    
     def name
       @name
     end
